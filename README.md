@@ -1,7 +1,7 @@
 
 
-![Version](https://img.shields.io/badge/ভার্সন-1.0-blue)
-![Termux](https://img.shields.io/badge/Termux-প্রয়োজনীয়-green)
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![Termux](https://img.shields.io/badge/Need-green)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 
 **2L YT Live**是一个 শক্তিশালী Termux টুল যা আপনাকে Android টার্মিনাল থেকে YouTube ভিডিও ডাউনলোড, লোকাল ফাইল স্ট্রিম, লাইভ স্ট্রিম রিলে এবং আরও অনেক কিছু করতে দেয়।
@@ -24,8 +24,7 @@
 
 [![ভিডিও দেখুন](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-> ⚠️ **`YOUR_VIDEO_ID` -কে আপনার আসল ইউটিউব ভিডিও আইডি দিয়ে পরিবর্তন করুন** (যেমন: `dQw4w9WgXcQ`)  
-> ভিডিওতে ধাপে ধাপে ইনস্টলেশন ও ব্যবহার দেখানো আছে।
+
 
 <details>
 <summary>📹 সরাসরি GitHub-এ ভিডিও দেখতে ক্লিক করুন</summary>
@@ -84,9 +83,6 @@ python nx.py
 ```bash
 termux-setup-storage
 ```
-
-
----
 
 ## ✨ বৈশিষ্ট্যসমূহ
 
@@ -183,7 +179,7 @@ YouTube Content Creator & Termux ডেভেলপার
 ---
 
 <p align="center">
-  ❤️ দিয়ে তৈরি করেছেন <a href="https://youtube.com/@nx.al.imran.s">NX AL IMRAN S</a>
+  ❤️ তৈরি করেছেন <a href="https://youtube.com/@nx.al.imran.s">NX AL IMRAN S</a>
 </p>
 <p align="center">
   © ২০২৬ - সর্বস্বত্ব সংরক্ষিত
