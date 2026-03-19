@@ -50,26 +50,33 @@ pkg update -y && pkg upgrade -y && pkg install python ffmpeg git -y && git clone
 
 নিচের ধাপগুলো অনুসরণ করুন (এক লাইনের কমান্ড কাজ না করলে):
 
-```bash
+
 # 1. প্যাকেজ আপডেট করুন
+```bash
 pkg update && pkg upgrade -y
-
+```
 # 2. প্রয়োজনীয় প্যাকেজ ইনস্টল করুন
+```bash
 pkg install python ffmpeg git -y
-
+```
 # 3. রিপোজিটরি ক্লোন করুন
+```bash
 git clone https://github.com/hdalimrans2/YouTube-live.git
-
+```
 # 4. ডিরেক্টরিতে প্রবেশ করুন
+```bash
 cd YouTube-live
-
+```
 # 5. Python ডিপেন্ডেন্সি ইনস্টল করুন
+```bash
 pip install rich yt-dlp
-
+```
 # 6. স্ক্রিপ্ট এক্সিকিউটেবল করুন
+```bash
 chmod +x nx.py
-
+```
 # 7. টুল রান করুন
+```bash
 python nx.py
 ```
 
@@ -137,7 +144,7 @@ YouTube Content Creator & Termux ডেভেলপার
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@nx.al.imran.s)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nx.al.imran.s)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/NXALIMRANS_bot)
-[![Website](https://img.shields.io/badge/ওয়েবসাইট-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nxalimranss.blogspot.com)
+[![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nxalimranss.blogspot.com)
 
 > **কপিরাইট:** এই টুলের সম্পূর্ণ মালিকানা ও উন্নয়ন NX AL IMRAN S-এর। অনুমতি ছাড়া বাণিজ্যিক ব্যবহার বা পুনর্বিতরণ নিষিদ্ধ।
 
@@ -177,26 +184,3 @@ YouTube Content Creator & Termux ডেভেলপার
 <p align="center">
   © ২০২৬ - সর্বস্বত্ব সংরক্ষিত
 </p>
-```
-
-## 📝 কীভাবে কাস্টমাইজ করবেন:
-
-1. **ইউটিউব ভিডিও আইডি**:  
-   README-তে দুটি জায়গায় `YOUR_VIDEO_ID` লেখা আছে। আপনার ইউটিউব ভিডিওর আইডি দিয়ে এটি প্রতিস্থাপন করুন। যেমন আপনার ভিডিও লিংক যদি হয় `https://www.youtube.com/watch?v=abc123xyz`, তাহলে আইডি হবে `abc123xyz`।
-
-2. **পাসওয়ার্ড ওয়েবসাইট**:  
-   আপনি `https://www.nxalimrans.site` দিয়েছেন, এটি README-তে সঠিকভাবে বসানো আছে।
-
-3. **সোশ্যাল লিংক**:  
-   আপনার দেওয়া ফেসবুক, টেলিগ্রাম, ওয়েবসাইট লিংকগুলো README-তে যুক্ত করা হয়েছে।
-
-## 🚀 রিপোজিটরিতে আপলোড করার নিয়ম:
-
-```bash
-# README.md ফাইল তৈরি করে সেভ করুন
-# তারপর Git কমান্ড দিন:
-git add README.md
-git commit -m "বাংলায় পেশাদার README যোগ করা হয়েছে"
-git push origin main
-```
-
