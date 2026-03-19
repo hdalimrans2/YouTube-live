@@ -1,7 +1,7 @@
 
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
-![Termux](https://img.shields.io/badge/Need-green)
+![Termux](https://img.shields.io/badge/Termux-green)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 
 **2L YT Live**是一个 শক্তিশালী Termux টুল যা আপনাকে Android টার্মিনাল থেকে YouTube ভিডিও ডাউনলোড, লোকাল ফাইল স্ট্রিম, লাইভ স্ট্রিম রিলে এবং আরও অনেক কিছু করতে দেয়।
